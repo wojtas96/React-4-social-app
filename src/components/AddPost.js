@@ -2,6 +2,7 @@ import './AddPost.css';
 import { useState } from 'react';
 import axios from 'axios';
 
+
 const AddPost = (props) => {
     const [postContent, setPostContent] = useState('');
 

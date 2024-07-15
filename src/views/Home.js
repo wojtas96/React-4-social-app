@@ -2,6 +2,8 @@ import './Home.css';
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 import Post from '../components/Post';
+import AddPost from '../components/AddPost';
+import FollowRecommendations from '../components/FollowRecommendations';
 
 
 const Home = (props) => {

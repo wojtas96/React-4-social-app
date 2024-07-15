@@ -1,6 +1,7 @@
 import './FollowRecommendations.css';
-import axios from "axios";
-import { useState } from "react";
+import axios from 'axios';
+import { useEffect, useState } from 'react';
+
 
 const FollowRecommendations = (props) => {
     const [recommendations, setRecommendations] = useState([]);

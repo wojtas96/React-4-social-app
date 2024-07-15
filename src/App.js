@@ -3,7 +3,6 @@ import { useState } from 'react';
 import './App.css';
 import AppNav from './components/AppNav';
 import AppRoutes from './routes/AppRoutes';
-import 'react-router-dom';
 
 
 function App() {

@@ -31,7 +31,7 @@ const Post = (props) => {
             post_id: id
         })
             .then(() => {
-                setLikeCount(likeCount + (isLiked ? -1 : 1));
+                setLikesCount(likeCount + (isLiked ? -1 : 1));
                 setDoesUserLiked(!isLiked);
             });
     };
